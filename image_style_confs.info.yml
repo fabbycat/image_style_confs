@@ -1,0 +1,17 @@
+name: 'Image Style Configurations'
+machine_name: 'image_style_confs'
+description: 'A collection image styles pre-configured for use with Drupal. These styles can be reused in modules and when managing content through the Drupal administration interface.'
+# lifecycle:
+# lifecycle_link:
+# project status url:
+package: Content types
+type: module
+core_version_requirement:  ^11 || ^12
+php: 8.3
+dependencies:
+  - drupal:image
+# test_dependencies:
+# configure:
+# configure_parameters:
+# hidden:
+# required:
